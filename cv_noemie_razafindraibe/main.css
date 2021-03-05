@@ -1,0 +1,176 @@
+/*fonts*/
+
+    @font-face {
+        font-family: 'demoderegular';
+        src: url('fonts/webfontkit-20210304-181717/demode-webfont.woff2') format('woff2'),
+            url('fonts/webfontkit-20210304-181717/demode-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'clementepdacextralight';
+        src: url('fonts/clemente/clementepdac-extralight-webfont.woff2') format('woff2'),
+            url('fonts/clemente/clementepdac-extralight-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'clementepdadextralightitalic';
+        src: url('fonts/clemente/clementepdad-extralightital-webfont.woff2') format('woff2'),
+            url('fonts/clemente/clementepdad-extralightital-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'clementepdanbolditalic';
+        src: url('fonts/clemente/clementepdan-bolditalic-webfont.woff2') format('woff2'),
+            url('fonts/clemente/clementepdan-bolditalic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'clementepdambold';
+        src: url('fonts/clemente/clementepdam-bold-webfont.woff2') format('woff2'),
+            url('fonts/clemente/clementepdam-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+/*end fonts*/
+
+body{
+    background-color: whitesmoke;
+    margin:0;
+    display: inline;
+    font-family: clementepdacextralight;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+
+main {
+    margin-left:200px;
+    margin-top: 100px;
+    margin-right: 60px;
+    padding : 0px 200px;
+    text-align: center;
+    float: left;
+}
+
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    width: 200px;
+    height:100%;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: gray;
+}
+
+nav a {
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    padding: 40px 0px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+nav a:hover {
+    color: #ffffff;
+    background-color: orange;
+  }
+
+.photo{
+    padding:0;
+}
+.photo:hover {
+    opacity: 10;
+    background-color: gray;
+}
+
+nav ul  {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+article, header{
+    margin-bottom:100px;
+}
+
+h3{
+    font-family:clementepdambold ;
+    font-size: 17pt;
+}
+
+hr{
+    width: 40px;
+    background-color: orange;
+    height: 5px;
+    border: none;
+}
+
+header h1 {
+    font-family: demoderegular;
+    font-size: 4em
+}
+
+table{
+    width: 100%;
+    color: white;
+}
+
+table th {
+   /* border-right:  1px black solid;*/
+    width: 50%;
+}
+
+th, td {
+    margin:0;
+    padding: 10px;
+    background-color: orange;
+}
+
+.liste{
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.liste ul{
+    text-align: left;
+}
+
+
+aside{
+    overflow-x: hidden;
+    position: fixed;
+    right: 0;
+    margin-left: auto;
+    margin-top: 0;
+    width: 60px;
+    height:100%;
+    background-color:gainsboro;
+    z-index: 2;
+}
+
+aside ul{
+ padding: 0;
+}
+
+aside ul li {
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+    list-style-type: none;
+}
